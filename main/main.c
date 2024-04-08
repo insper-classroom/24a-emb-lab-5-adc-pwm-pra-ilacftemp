@@ -17,7 +17,7 @@ QueueHandle_t xQueueAdc;
 
 #define JOY_X_PIN 26
 #define JOY_Y_PIN 27
-#define DEAD_ZONE 170
+#define DEAD_ZONE 30
 
 typedef struct adc {
     int axis;
